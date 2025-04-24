@@ -14,7 +14,6 @@ def on_click(x,y,button, pressed):
         elif button == mouse.Button.x1:  
             clicking = False
               
-
 listener = mouse.Listener(on_click=on_click)
 listener.start()
 
